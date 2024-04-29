@@ -1,0 +1,240 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+:root{
+    --space : 200px
+}
+body{
+    background: #012C5E;
+    height: 2000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+   
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto ;
+    margin-right: auto ;
+    color: #00D2F2;
+
+}
+
+#shoping .cartes{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+#shoping {
+
+    background-color: #A3B4C8;
+    margin-top: 200px;
+    padding: 50px 0;
+}
+
+.carte{
+    border-radius: 10px;
+    padding: 20px 20px 10px;
+
+    background-color: rgb(255, 255, 255);
+    color: #012C5E;
+}
+
+.carte .heart{
+
+text-align: right;
+cursor: pointer;
+
+}
+.carte .heart i{
+    font-size: 26px;
+}
+.carte .heart i:hover{
+    color: red;
+}
+.carte h2{
+    color: #000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin: 8px 0px;
+}
+.carte .stars{
+    margin-bottom: 8px;
+}
+.carte .stars i{
+    font-size: 14px;
+
+}
+
+.carte .buy{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.carte .buy i{
+    cursor: pointer;
+}
+
+.carte .buy p{
+    font-size: 10px;
+}
+.carte .img{
+    text-align: center;
+}
+
+.carte .img img{
+    width: 70%;
+    margin: 20px 0;
+
+}
+
+.active{
+    color:  #F3CC00;
+
+
+}
+
+.disactive{
+    color: #776D18;
+}
+
+
+
+
+.serch h1{
+    
+    color: #012C5E;
+    font-family: Squada One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+.serch form input{
+
+    padding: 10px 20px ;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+   
+}
+.serch form input::placeholder{
+    font-size: 11px;
+}
+
+.serch form label{
+    color: #012C5E;
+   margin-left: -40px;
+   font-size: 14px;
+   
+   
+}
+
+.genre{
+    color: #012C5E;
+    width: 205px;
+    border-radius: 20px;
+    background: #FFF6F6;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+ 
+}
+
+.sport{
+    color: #012C5E;
+    width: 205px;
+    border-radius: 20px;
+    background: #FFF6F6;
+    margin-top: 10px;
+    margin-bottom: 80px;
+   
+}
+
+
+
+.genresport{
+
+    display: flex;
+  
+}
+
+.genre{
+    padding: 20px;
+    font-size: 12px;
+}
+.genre label{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.genre p{
+    margin-bottom: 20px;
+}
+.genre div{
+    margin-top: 10px;
+}
+.sport{
+    padding: 20px;
+}
+
+
+.sport{
+    padding: 20px;
+    font-size: 12px;
+}
+.sport label{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.sport p{
+    margin-bottom: 20px;
+}
+.sport div{
+    margin-top: 10px;
+}
+
+
+
+
+
